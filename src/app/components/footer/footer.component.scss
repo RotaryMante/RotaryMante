@@ -1,0 +1,51 @@
+.footer {
+  background-color: #17458f;
+  color: white;
+  padding: 3em 0;
+
+  &__info {
+    padding: 0 10em;
+    text-align: justify;
+  }
+
+  &__textarea {
+    min-height: 140px;
+    max-height: 200px;
+  }
+
+  &__btn-form {
+    width: 100%;
+    height: 40px;
+  }
+}
+
+@media (width <= 991px) {
+  .footer {
+    &__info {
+      padding: 0;
+    }
+  }
+}
+
+.footer-end {
+  background-color: black;
+  color: white;
+
+  &__info {
+    p {
+      margin: 0;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    fa-icon {
+      font-size: 1.5em;
+      &:hover {
+        color: #17458f;
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.home-welcome {
+  &__title {
+    background-color: white;
+    color: #0a0a0a;
+    img {
+      width: 75%;
+    }
+  }
+
+  &__card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    transition: all 0.5s;
+
+    &:hover {
+      scale: 1.2;
+      background-color: white;
+    }
+
+    fa-icon {
+      font-size: 4em;
+      color: #17458f;
+    }
+
+    h4 {
+      margin-top: 1em;
+    }
+
+    p {
+      margin-top: 1em;
+      text-align: justify;
+    }
+  }
+}
+
+.home-sections {
+  margin-top: 75px;
+  margin-bottom: 75px;
+
+  img {
+    width: 100%;
+  }
+
+  p {
+    text-align: justify !important;
+  }
+
+  button {
+    margin: 1em 0;
+    border: none;
+    background-color: #17458f;
+    color: white;
+    padding: 10px 20px;
+  }
+}
+
+@media (width < 768px) {
+  .home-sections {
+    text-align: center;
+  }
+}

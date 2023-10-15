@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+.active {
+  color: #17458f !important;
+  font-weight: 700 !important;
+  &::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #17458f;
+  }
+}
