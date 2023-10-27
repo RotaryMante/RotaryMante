@@ -5,10 +5,10 @@
   <fa-icon [icon]="faBars" class="header__button" (click)="showOrHideNav()">Menu</fa-icon>
   <ul [ngClass]="showButtonNav ? 'show-nav' : 'hide-nav'">
     <li><a routerLink="home" routerLinkActive="active">Inicio</a></li>
-    <li><a href="">Nosotros</a></li>
-    <li><a href="">Causas</a></li>
-    <li><a href="">Proyectos</a></li>
-    <li><a href="">Contacto</a></li>
+    <li><a routerLink="about-us" routerLinkActive="active">Nosotros</a></li>
+    <li><a routerLinkActive="active">Causas</a></li>
+    <li><a routerLinkActive="active">Proyectos</a></li>
+    <li><a routerLink="contact" routerLinkActive="active">Contacto</a></li>
     <li><span><fa-icon [icon]="faEarthAmericas"></fa-icon></span>
       <select>
         <option disabled selected value="">Idioma</option>
