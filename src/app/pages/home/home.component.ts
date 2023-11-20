@@ -18,6 +18,20 @@ export class HomeComponent {
     },
     */
     {
+      imageSrc: 'assets/home-carousel/reconocimiento_covid_1.jpg',
+      imageAlt: '',
+      imageTitle: 'Reconocimiento por labor contra SARS-COV-2',
+      imageContent:
+        'El día 30 de octubre de 2023 tuvimos una agradable cena con un invitado especial, el Dr. Luis Gerardo Olvera Berrones, quien nos compartió su experiencia en el combate contra el SARS-COV-2, y se le entregó un reconocimiento por su labor en la lucha contra esta pandemia.',
+    },
+    {
+      imageSrc: 'assets/home-carousel/reconocimiento_covid_2.jpg',
+      imageAlt: '',
+      imageTitle: 'Reconocimiento por labor contra SARS-COV-2',
+      imageContent:
+        'El día 30 de octubre de 2023 tuvimos una agradable cena con un invitado especial, el Dr. Luis Gerardo Olvera Berrones, quien nos compartió su experiencia en el combate contra el SARS-COV-2, y se le entregó un reconocimiento por su labor en la lucha contra esta pandemia.',
+    },
+    {
       imageSrc: 'assets/home-carousel/polio_1.jpg',
       imageAlt: '',
       imageTitle: '#EndPolioNow',

@@ -14,8 +14,11 @@ import { CarouselImage } from 'src/app/shared/interfaces/CarouselImage';
 export class CarouselComponent implements OnInit {
   @Input() imagesArray: Array<CarouselImage> = [];
   @Input() slideInterval: number = 5000;
+  @Input() carouselInfo: boolean = true;
   @Input() carouselDots: boolean = true;
   @Input() carouselControls: boolean = true;
+  @Input() objectFitCover: boolean = true;
+  @Input() componentHeight: string = '100';
 
   public selectedIndex: number = 0;
   private autoSlideInterval: any;
