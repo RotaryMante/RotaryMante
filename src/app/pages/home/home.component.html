@@ -1,8 +1,10 @@
 <app-carousel [imagesArray]="homeImgArray"></app-carousel>
 <div class="home-welcome">
   <div class="home-welcome__title container py-4">
-    <div class="d-flex justify-content-center align-content-center align-items-center flex-column">
-      <img src="assets/home/new.png" alt="">
+    <div
+      class="d-flex justify-content-center align-content-center align-items-center flex-column"
+    >
+      <img src="assets/home/new.png" alt="" />
       <h2 class="pt-5 text-center">Club Rotario Ciudad Mante 6942</h2>
     </div>
     <div class="row pt-4 justify-content-between">
@@ -10,99 +12,121 @@
         <div class="home-welcome__card">
           <fa-icon [icon]="faGears"></fa-icon>
           <h4>¿Qué hacemos?</h4>
-          <p>Como socios de Rotary asumimos la responsabilidad de tomar acción, a fin de abordar los problemas más
-            perniciosos que afectan a la humanidad.</p>
+          <p>
+            Como socios de Rotary asumimos la responsabilidad de tomar acción, a
+            fin de abordar los problemas más perniciosos que afectan a la
+            humanidad.
+          </p>
         </div>
       </div>
       <div class="col-12 col-sm-12 col-md-3">
         <div class="home-welcome__card">
           <fa-icon [icon]="faBullseye"></fa-icon>
           <h4>Misión</h4>
-          <p>Nuestra misión es brindar servicio a los demás, promover la integridad y fomentar la comprensión, la buena
-            voluntad y la paz entre las naciones a través de las actividades de compañerismo de nuestros líderes
-            empresariales, profesionales y cívicos.</p>
+          <p>
+            Nuestra misión es brindar servicio a los demás, promover la
+            integridad y fomentar la comprensión, la buena voluntad y la paz
+            entre las naciones a través de las actividades de compañerismo de
+            nuestros líderes empresariales, profesionales y cívicos.
+          </p>
         </div>
       </div>
       <div class="col-12 col-sm-12 col-md-3">
         <div class="home-welcome__card">
           <fa-icon [icon]="faEye"></fa-icon>
           <h4>Visión</h4>
-          <p>Juntos contemplamos un mundo donde las personas se unen y toman acción para generar un cambio perdurable en
-            nosotros mismos, en nuestras comunidades y en el mundo entero.</p>
+          <p>
+            Juntos contemplamos un mundo donde las personas se unen y toman
+            acción para generar un cambio perdurable en nosotros mismos, en
+            nuestras comunidades y en el mundo entero.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </div>
 <div class="home-sections container">
-  <div class="row justify-content-center align-items-center row-gap-4 row-gap-md-5">
+  <div
+    class="row justify-content-center align-items-center row-gap-4 row-gap-md-5"
+  >
     <!-- Section 1 -->
     <div class="col-12 col-sm-12 col-md-6">
       <h2>Nuestro Club</h2>
-      <p class="pt-4">El Club Rotario Mante fundado el 4 de marzo de 1946 es una asociación civil con la estructura de
-        un presidente, una mesa directiva y una membresía de socios.
-        <br><br>
-        Realizamos proyectos de desarrollo comunitario, recaudamos fondos y fomentamos relaciones públicas para realizar
-        más proyectos y beneficiar a la comunidad local e internacional.
-        <br><br>
+      <p class="pt-4">
+        El Club Rotario Mante fundado el 4 de marzo de 1946 es una asociación
+        civil con la estructura de un presidente, una mesa directiva y una
+        membresía de socios. <br /><br />
+        Realizamos proyectos de desarrollo comunitario, recaudamos fondos y
+        fomentamos relaciones públicas para realizar más proyectos y beneficiar
+        a la comunidad local e internacional.
+        <br /><br />
         Somos una asociación dedicada, comprensiva y sin fines de lucro.
       </p>
       <button [routerLink]="'/about-us'">Ver más</button>
     </div>
     <div class="col-12 col-sm-12 col-md-6">
-      <img src="assets/home/sections/section_1.JPG" alt="">
+      <img src="assets/home/sections/section_1.JPG" alt="" />
     </div>
     <!-- Section 2 -->
     <div class="col-12 col-sm-12 col-md-6">
-      <img src="assets/home/sections/section_2.jpg" alt="">
+      <img src="assets/home/sections/section_2.jpg" alt="" />
     </div>
     <div class="col-12 col-sm-12 col-md-6 text-center text-md-end">
       <h2>Nuestras Causas</h2>
-      <p class="pt-4"> Nos concentramos en causas para fortalecer las relaciones internacionales, mejorar vidas, y crear
-        un
-        mundo más propicio para fomentar nuestras iniciativas pro paz y nuestra campaña para erradicar la polio.
-        <br><br>
-        Rotary y sus aliados han logrado un tremendo progreso contra la polio; sin embargo, eliminar todos los casos de
-        esta enfermedad requerirá perseverancia. Afganistán y Pakistán enfrentan desafíos únicos, incluida la
-        inseguridad política, el alto porcentaje de población migratoria, la orografía y, en algunas ocasiones, las
-        barreras logísticas. Con recursos suficientes, el compromiso de los gobiernos e innovaciones que mejoran el
-        acceso a las áreas remotas.
+      <p class="pt-4">
+        Nos concentramos en causas para fortalecer las relaciones
+        internacionales, mejorar vidas, y crear un mundo más propicio para
+        fomentar nuestras iniciativas pro paz y nuestra campaña para erradicar
+        la polio. <br /><br />
+        Rotary y sus aliados han logrado un tremendo progreso contra la polio;
+        sin embargo, eliminar todos los casos de esta enfermedad requerirá
+        perseverancia. Afganistán y Pakistán enfrentan desafíos únicos, incluida
+        la inseguridad política, el alto porcentaje de población migratoria, la
+        orografía y, en algunas ocasiones, las barreras logísticas. Con recursos
+        suficientes, el compromiso de los gobiernos e innovaciones que mejoran
+        el acceso a las áreas remotas.
       </p>
-      <button>Ver más</button>
+      <button [routerLink]="'/our-causes'">Ver más</button>
     </div>
     <!-- Section 3 -->
     <div class="col-12 col-sm-12 col-md-6">
       <h2>Nuestros Proyectos</h2>
-      <p class="pt-4">Gracias a que somos conscientes de la realidad local, podemos detectar los problemas que afectan a
-        un colectivo y usar nuestras competencias, conocimientos y diversas perspectivas para encontrar una solución.
-        <br><br>
-        Con gran entusiasmo el Club Rotario #Mante 6942 llevó a cabo en el jardín de niños Juan Jacobo Rousseau , una
-        actividad para lograr la rehabilitación de pintura de 3 aulas ( interior y exterior), un desayunador y los
-        juegos metálicos del jardín de niños.
-        <br>
-        En el marco del proyecto #RotaryPintaMéxico, se beneficiaron a 35 estudiantes de este preescolar ubicado en el
-        ejido Cuauhtémoc municipio de El Mante.
+      <p class="pt-4">
+        Gracias a que somos conscientes de la realidad local, podemos detectar
+        los problemas que afectan a un colectivo y usar nuestras competencias,
+        conocimientos y diversas perspectivas para encontrar una solución.
+        <br /><br />
+        Con gran entusiasmo el Club Rotario #Mante 6942 llevó a cabo en el
+        jardín de niños Juan Jacobo Rousseau , una actividad para lograr la
+        rehabilitación de pintura de 3 aulas ( interior y exterior), un
+        desayunador y los juegos metálicos del jardín de niños.
+        <br />
+        En el marco del proyecto #RotaryPintaMéxico, se beneficiaron a 35
+        estudiantes de este preescolar ubicado en el ejido Cuauhtémoc municipio
+        de El Mante.
       </p>
-      <button>Ver más</button>
+      <button [routerLink]="'/projects'">Ver más</button>
     </div>
     <div class="col-12 col-sm-12 col-md-6">
-      <img src="assets/home/sections/section_3.jpg" alt="">
+      <img src="assets/home/sections/section_3.jpg" alt="" />
     </div>
     <!-- Section 4 -->
     <div class="col-12 col-sm-12 col-md-6">
-      <img src="assets/home/sections/section_4.jpg" alt="">
+      <img src="assets/home/sections/section_4.jpg" alt="" />
     </div>
     <div class="col-12 col-sm-12 col-md-6 text-center text-md-end">
       <h2>Involúcrate</h2>
-      <p class="pt-4">Estamos encantados de saber que estás interesado en conectarte con nosotros. En el Club de
-        Rotarios, valoramos la oportunidad de servir a la comunidad y trabajar juntos para lograr un impacto positivo en
-        el mundo que nos rodea.
-        <br><br>
-        Si tienes alguna pregunta, sugerencia o simplemente deseas obtener más información sobre nuestras actividades y
-        proyectos, no dudes en ponerte en contacto con nosotros. Nuestro equipo estará encantado de atender tus
+      <p class="pt-4">
+        Estamos encantados de saber que estás interesado en conectarte con
+        nosotros. En el Club de Rotarios, valoramos la oportunidad de servir a
+        la comunidad y trabajar juntos para lograr un impacto positivo en el
+        mundo que nos rodea. <br /><br />
+        Si tienes alguna pregunta, sugerencia o simplemente deseas obtener más
+        información sobre nuestras actividades y proyectos, no dudes en ponerte
+        en contacto con nosotros. Nuestro equipo estará encantado de atender tus
         inquietudes y brindarte la información que necesitas.
       </p>
-      <button>Ver más</button>
+      <button [routerLink]="'/contact'">Ver más</button>
     </div>
   </div>
 </div>

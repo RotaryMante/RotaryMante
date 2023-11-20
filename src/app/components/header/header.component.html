@@ -1,15 +1,18 @@
 <nav class="header">
   <div class="header__logo">
-    <a href=""><img src="assets/header/logo_club.svg" alt="Logo"></a>
+    <a href=""><img src="assets/header/logo_club.svg" alt="Logo" /></a>
   </div>
-  <fa-icon [icon]="faBars" class="header__button" (click)="showOrHideNav()">Menu</fa-icon>
+  <fa-icon [icon]="faBars" class="header__button" (click)="showOrHideNav()"
+    >Menu</fa-icon
+  >
   <ul [ngClass]="showButtonNav ? 'show-nav' : 'hide-nav'">
     <li><a routerLink="home" routerLinkActive="active">Inicio</a></li>
     <li><a routerLink="about-us" routerLinkActive="active">Nosotros</a></li>
-    <li><a routerLinkActive="active">Causas</a></li>
-    <li><a routerLinkActive="active">Proyectos</a></li>
+    <li><a routerLink="our-causes" routerLinkActive="active">Causas</a></li>
+    <li><a routerLink="projects" routerLinkActive="active">Proyectos</a></li>
     <li><a routerLink="contact" routerLinkActive="active">Contacto</a></li>
-    <li><span><fa-icon [icon]="faEarthAmericas"></fa-icon></span>
+    <li>
+      <span><fa-icon [icon]="faEarthAmericas"></fa-icon></span>
       <select>
         <option disabled selected value="">Idioma</option>
         <option value="en">Inglés</option>
