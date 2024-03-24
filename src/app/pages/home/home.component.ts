@@ -18,6 +18,110 @@ export class HomeComponent {
     },
     */
     {
+      imageSrc: 'assets/home-carousel/meet_intercambista_1.jpg',
+      imageAlt: '',
+      imageTitle:
+        'Un Encuentro de Sueños: El Club Rotario Mante y la Próxima Intercambista del Programa de Intercambio de Jóvenes',
+      imageContent:
+        'En una emotiva reunión, el Club Rotario Mante tuvo el privilegio de conocer a la familia de nuestra próxima intercambista del programa de Intercambio de Jóvenes. Juntos compartimos sueños, expectativas y el compromiso compartido de enriquecer vidas a través del intercambio cultural. Con gratitud y entusiasmo, damos la bienvenida a esta nueva etapa de amistad y aprendizaje mutuo.',
+    },
+    {
+      imageSrc: 'assets/home-carousel/meet_intercambista_2.jpg',
+      imageAlt: '',
+      imageTitle:
+        'Un Encuentro de Sueños: El Club Rotario Mante y la Próxima Intercambista del Programa de Intercambio de Jóvenes',
+      imageContent:
+        'En una emotiva reunión, el Club Rotario Mante tuvo el privilegio de conocer a la familia de nuestra próxima intercambista del programa de Intercambio de Jóvenes. Juntos compartimos sueños, expectativas y el compromiso compartido de enriquecer vidas a través del intercambio cultural. Con gratitud y entusiasmo, damos la bienvenida a esta nueva etapa de amistad y aprendizaje mutuo.',
+    },
+    {
+      imageSrc: 'assets/home-carousel/dia_amistad_1.jpg',
+      imageAlt: '',
+      imageTitle:
+        'Unión y Servicio: Bienvenida a Erika Sandoval en el Día del Amor y la Amistad',
+      imageContent:
+        'El Club Rotario Mante se llena de alegría al dar la más cordial bienvenida a nuestro nuevo miembro, Erika Sandoval. En este día especial, en que celebramos el amor y la amistad, renovamos nuestro compromiso de servir a la comunidad con pasión y dedicación. ¡Que la camaradería y el espíritu de servicio nos guíen en cada paso hacia un mundo mejor para todos!',
+    },
+    {
+      imageSrc: 'assets/home-carousel/dia_amistad_2.JPG',
+      imageAlt: '',
+      imageTitle:
+        'Unión y Servicio: Bienvenida a Erika Sandoval en el Día del Amor y la Amistad',
+      imageContent:
+        'El Club Rotario Mante se llena de alegría al dar la más cordial bienvenida a nuestro nuevo miembro, Erika Sandoval. En este día especial, en que celebramos el amor y la amistad, renovamos nuestro compromiso de servir a la comunidad con pasión y dedicación. ¡Que la camaradería y el espíritu de servicio nos guíen en cada paso hacia un mundo mejor para todos!',
+    },
+    {
+      imageSrc: 'assets/home-carousel/dia_amistad_3.jpg',
+      imageAlt: '',
+      imageTitle:
+        'Unión y Servicio: Bienvenida a Erika Sandoval en el Día del Amor y la Amistad',
+      imageContent:
+        'El Club Rotario Mante se llena de alegría al dar la más cordial bienvenida a nuestro nuevo miembro, Erika Sandoval. En este día especial, en que celebramos el amor y la amistad, renovamos nuestro compromiso de servir a la comunidad con pasión y dedicación. ¡Que la camaradería y el espíritu de servicio nos guíen en cada paso hacia un mundo mejor para todos!',
+    },
+    {
+      imageSrc: 'assets/home-carousel/celebracion_navidad_1.jpg',
+      imageAlt: '',
+      imageTitle:
+        'Brillante Posada Navideña en el Corazón del Ejido Brownsville',
+      imageContent:
+        'Luces parpadeantes, risas en el aire y corazones rebosantes de alegría marcaron la inolvidable posada navideña en el Ejido Brownsville. En esta mágica noche, el espíritu de la comunidad brilló con fuerza mientras vecinos, amigos y el Club Rotario Mante se unieron para celebrar la temporada de paz y esperanza. Una velada llena de calidez y generosidad que iluminó los rostros de todos los presentes.',
+    },
+    {
+      imageSrc: 'assets/home-carousel/celebracion_navidad_2.jpg',
+      imageAlt: '',
+      imageTitle:
+        'Brillante Posada Navideña en el Corazón del Ejido Brownsville',
+      imageContent:
+        'Luces parpadeantes, risas en el aire y corazones rebosantes de alegría marcaron la inolvidable posada navideña en el Ejido Brownsville. En esta mágica noche, el espíritu de la comunidad brilló con fuerza mientras vecinos, amigos y el Club Rotario Mante se unieron para celebrar la temporada de paz y esperanza. Una velada llena de calidez y generosidad que iluminó los rostros de todos los presentes.',
+    },
+    {
+      imageSrc: 'assets/home-carousel/celebracion_navidad_3.jpg',
+      imageAlt: '',
+      imageTitle:
+        'Brillante Posada Navideña en el Corazón del Ejido Brownsville',
+      imageContent:
+        'Luces parpadeantes, risas en el aire y corazones rebosantes de alegría marcaron la inolvidable posada navideña en el Ejido Brownsville. En esta mágica noche, el espíritu de la comunidad brilló con fuerza mientras vecinos, amigos y el Club Rotario Mante se unieron para celebrar la temporada de paz y esperanza. Una velada llena de calidez y generosidad que iluminó los rostros de todos los presentes.',
+    },
+    {
+      imageSrc: 'assets/home-carousel/visita_ejido_brownsville_1.jpg',
+      imageAlt: '',
+      imageTitle:
+        'Encuentro de Solidaridad: Club Rotario Mante y Kinder del Ejido Brownsville',
+      imageContent:
+        'El sábado 25 de noviembre, el Club Rotario Mante se desplazó al Ejido Brownsville con el propósito de abordar las problemáticas locales y explorar cómo podíamos brindar apoyo. Nos reunimos con la maestra Flor, encargada del Kinder del lugar, para comprender mejor las necesidades de la comunidad y ofrecer nuestra ayuda en donde más se requiera. Este encuentro nos permitió identificar áreas de acción para contribuir al bienestar y desarrollo de la zona.',
+    },
+    {
+      imageSrc: 'assets/home-carousel/visita_ejido_brownsville_2.jpg',
+      imageAlt: '',
+      imageTitle:
+        'Encuentro de Solidaridad: Club Rotario Mante y Kinder del Ejido Brownsville',
+      imageContent:
+        'El sábado 25 de noviembre, el Club Rotario Mante se desplazó al Ejido Brownsville con el propósito de abordar las problemáticas locales y explorar cómo podíamos brindar apoyo. Nos reunimos con la maestra Flor, encargada del Kinder del lugar, para comprender mejor las necesidades de la comunidad y ofrecer nuestra ayuda en donde más se requiera. Este encuentro nos permitió identificar áreas de acción para contribuir al bienestar y desarrollo de la zona.',
+    },
+    {
+      imageSrc: 'assets/home-carousel/visita_dr_marin_1.JPG',
+      imageAlt: '',
+      imageTitle:
+        'El día 20 de noviembre del 2023 recibimos la visita del Gobernador el Dr. Marin Martinez Mellado',
+      imageContent:
+        'Hoy es un honor para el Club Rotario Mante recibir al distinguido Dr. Marín Martínez Mellado, quien lidera con pasión y compromiso. Juntos, continuamos construyendo un mundo mejor a través del servicio.',
+    },
+    {
+      imageSrc: 'assets/home-carousel/visita_dr_marin_2.jpg',
+      imageAlt: '',
+      imageTitle:
+        'El día 20 de noviembre del 2023 recibimos la visita del Gobernador el Dr. Marin Martinez Mellado',
+      imageContent:
+        'Hoy es un honor para el Club Rotario Mante recibir al distinguido Dr. Marín Martínez Mellado, quien lidera con pasión y compromiso. Juntos, continuamos construyendo un mundo mejor a través del servicio.',
+    },
+    {
+      imageSrc: 'assets/home-carousel/visita_dr_marin_3.JPG',
+      imageAlt: '',
+      imageTitle:
+        'El día 20 de noviembre del 2023 recibimos la visita del Gobernador el Dr. Marin Martinez Mellado',
+      imageContent:
+        'Hoy es un honor para el Club Rotario Mante recibir al distinguido Dr. Marín Martínez Mellado, quien lidera con pasión y compromiso. Juntos, continuamos construyendo un mundo mejor a través del servicio.',
+    },
+    {
       imageSrc: 'assets/home-carousel/reconocimiento_covid_1.jpg',
       imageAlt: '',
       imageTitle: 'Reconocimiento por labor contra SARS-COV-2',
